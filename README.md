@@ -80,3 +80,4 @@ npx tailwindcss init -p
 npm install @heroicons/react
 npm install typeface-roboto
 
+npm install gh-pages --save-dev
