@@ -3,9 +3,9 @@ import React from "react";
 const Skills = () => {
   return (
     <div id='Skills' className="mt-8 pb-10">
-      <div className="json-content text-left ml-8 md:ml-40 lg:ml-40 xl:ml-96 md:text-md  lg:text-md  xl:text-2xl  ">
-        {"{"}
-        <br />
+      <div className="json-content text-left ml-8 md:ml-40 lg:ml-40 xl:ml-96 pt-4 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">
+        {"{"} 
+        <br className="sm:text-md md:text-md lg:text-md xl:text-2xl"/>
         &nbsp;&nbsp;<strong>"Skills"</strong>: {"{"}
         <br />
         &nbsp;&nbsp;&nbsp;&nbsp;<strong>"Networking &amp; Security"</strong>: "Proficient in firewall, router, and switch administration, including ASR, ISR, Catalyst, Nexus, ASA, NGFW, Fortigate, Load Balancers, and Network Proxies.",
