@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcc6bc49.css",
-    "main.js": "/static/js/main.a05dded0.js",
+    "main.css": "/static/css/main.8a66ed91.css",
+    "main.js": "/static/js/main.87ea6d11.js",
     "static/js/787.2ee99fd9.chunk.js": "/static/js/787.2ee99fd9.chunk.js",
     "static/media/cloud-storage-banner-background.jpg": "/static/media/cloud-storage-banner-background.ce27a02bb6fadec42bb4.jpg",
     "static/media/workplace-results-professional-report-accounting-during.jpg": "/static/media/workplace-results-professional-report-accounting-during.42d2950802425b766f4a.jpg",
@@ -10,16 +10,18 @@
     "static/media/AI.webp": "/static/media/AI.ee287b880f5d8c534545.webp",
     "static/media/DataCenterJTD_edited.jpg": "/static/media/DataCenterJTD_edited.7be6a8c87ffc34fd2d50.jpg",
     "static/media/JTD-Imagotipo-A.jpg": "/static/media/JTD-Imagotipo-A.d688e2ac406cba92a486.jpg",
+    "static/media/BungeeHairline-Regular.ttf": "/static/media/BungeeHairline-Regular.abe3b10e57f9fc250185.ttf",
     "static/media/GettyImages-905866230.width-880.jpg": "/static/media/GettyImages-905866230.width-880.d1767b4213876727853a.jpg",
+    "static/media/bebas.ttf": "/static/media/bebas.12e3683f9192436a7be8.ttf",
     "static/media/nixie-one-latin-400.woff": "/static/media/nixie-one-latin-400.2a2114a002d16cc25aa6.woff",
     "static/media/nixie-one-latin-400.woff2": "/static/media/nixie-one-latin-400.711fdf61ee550dc8f0a2.woff2",
     "index.html": "/index.html",
-    "main.bcc6bc49.css.map": "/static/css/main.bcc6bc49.css.map",
-    "main.a05dded0.js.map": "/static/js/main.a05dded0.js.map",
+    "main.8a66ed91.css.map": "/static/css/main.8a66ed91.css.map",
+    "main.87ea6d11.js.map": "/static/js/main.87ea6d11.js.map",
     "787.2ee99fd9.chunk.js.map": "/static/js/787.2ee99fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc6bc49.css",
-    "static/js/main.a05dded0.js"
+    "static/css/main.8a66ed91.css",
+    "static/js/main.87ea6d11.js"
   ]
 }
