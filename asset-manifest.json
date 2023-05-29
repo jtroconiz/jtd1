@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/jtd1/static/css/main.df8ca537.css",
-    "main.js": "/jtd1/static/js/main.c56d34a3.js",
-    "static/js/787.2ee99fd9.chunk.js": "/jtd1/static/js/787.2ee99fd9.chunk.js",
-    "static/media/cloud-storage-banner-background.jpg": "/jtd1/static/media/cloud-storage-banner-background.ce27a02bb6fadec42bb4.jpg",
-    "static/media/workplace-results-professional-report-accounting-during.jpg": "/jtd1/static/media/workplace-results-professional-report-accounting-during.42d2950802425b766f4a.jpg",
-    "static/media/excited-hacker-after-breaking-government-server-using-supercomputer.jpg": "/jtd1/static/media/excited-hacker-after-breaking-government-server-using-supercomputer.a1a43f823268dcd8bda9.jpg",
-    "static/media/20211204_174255_01_edited.jpg": "/jtd1/static/media/20211204_174255_01_edited.7771ffe544e9ada76cb9.jpg",
-    "static/media/AI.webp": "/jtd1/static/media/AI.ee287b880f5d8c534545.webp",
-    "static/media/DataCenterJTD_edited.jpg": "/jtd1/static/media/DataCenterJTD_edited.7be6a8c87ffc34fd2d50.jpg",
-    "static/media/JTD-Imagotipo-A.jpg": "/jtd1/static/media/JTD-Imagotipo-A.d688e2ac406cba92a486.jpg",
-    "static/media/GettyImages-905866230.width-880.jpg": "/jtd1/static/media/GettyImages-905866230.width-880.d1767b4213876727853a.jpg",
-    "static/media/nixie-one-latin-400.woff": "/jtd1/static/media/nixie-one-latin-400.2a2114a002d16cc25aa6.woff",
-    "static/media/nixie-one-latin-400.woff2": "/jtd1/static/media/nixie-one-latin-400.711fdf61ee550dc8f0a2.woff2",
-    "index.html": "/jtd1/index.html",
-    "main.df8ca537.css.map": "/jtd1/static/css/main.df8ca537.css.map",
-    "main.c56d34a3.js.map": "/jtd1/static/js/main.c56d34a3.js.map",
-    "787.2ee99fd9.chunk.js.map": "/jtd1/static/js/787.2ee99fd9.chunk.js.map"
+    "main.css": "/static/css/main.6c5250f8.css",
+    "main.js": "/static/js/main.10a3b01f.js",
+    "static/js/787.2ee99fd9.chunk.js": "/static/js/787.2ee99fd9.chunk.js",
+    "static/media/cloud-storage-banner-background.jpg": "/static/media/cloud-storage-banner-background.ce27a02bb6fadec42bb4.jpg",
+    "static/media/workplace-results-professional-report-accounting-during.jpg": "/static/media/workplace-results-professional-report-accounting-during.42d2950802425b766f4a.jpg",
+    "static/media/excited-hacker-after-breaking-government-server-using-supercomputer.jpg": "/static/media/excited-hacker-after-breaking-government-server-using-supercomputer.a1a43f823268dcd8bda9.jpg",
+    "static/media/20211204_174255_01_edited.jpg": "/static/media/20211204_174255_01_edited.7771ffe544e9ada76cb9.jpg",
+    "static/media/AI.webp": "/static/media/AI.ee287b880f5d8c534545.webp",
+    "static/media/DataCenterJTD_edited.jpg": "/static/media/DataCenterJTD_edited.7be6a8c87ffc34fd2d50.jpg",
+    "static/media/JTD-Imagotipo-A.jpg": "/static/media/JTD-Imagotipo-A.d688e2ac406cba92a486.jpg",
+    "static/media/GettyImages-905866230.width-880.jpg": "/static/media/GettyImages-905866230.width-880.d1767b4213876727853a.jpg",
+    "static/media/nixie-one-latin-400.woff": "/static/media/nixie-one-latin-400.2a2114a002d16cc25aa6.woff",
+    "static/media/nixie-one-latin-400.woff2": "/static/media/nixie-one-latin-400.711fdf61ee550dc8f0a2.woff2",
+    "index.html": "/index.html",
+    "main.6c5250f8.css.map": "/static/css/main.6c5250f8.css.map",
+    "main.10a3b01f.js.map": "/static/js/main.10a3b01f.js.map",
+    "787.2ee99fd9.chunk.js.map": "/static/js/787.2ee99fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df8ca537.css",
-    "static/js/main.c56d34a3.js"
+    "static/css/main.6c5250f8.css",
+    "static/js/main.10a3b01f.js"
   ]
 }
