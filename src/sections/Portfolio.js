@@ -30,9 +30,9 @@ const Resume = () => {
         <>
           <strong className="block text-center mb-2"> Optimized network performance:</strong>
           <ul className="list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
-            <li>Used AI techniques, Python, and SQL for testing 2G to 5G, CorePS, and IMS models</li>
-            <li>Enhanced the model's accuracy to 94%</li>
-            <li>Improved network troubleshooting speed by setting alarm thresholds and correlating alarms for early anomaly and outage detection</li>
+            <li>Used AI techniques, Python, and SQL for testing 2G to 5G, CorePS, and IMS models.</li>
+            <li>Enhanced the model's accuracy to 94%.</li>
+            <li>Improved network troubleshooting speed by setting alarm thresholds and correlating alarms for early anomaly and outage detection.</li>
           </ul>
         </>,
         false

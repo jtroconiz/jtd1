@@ -7,7 +7,7 @@ const Intro = () => {
         Welcome, I'm Jesus Troconiz
       </h2>
       <h3 className="text-xl sm:text-xl md:text-3xl mx-4 pb-10 text-center">
-        Data & Business Analyst | Sr Networking +10 ys. | Software Developer
+        Data & Business Analyst | Sr Networking +10 yrs. | Software Developer
       </h3>
     </div>
   );
