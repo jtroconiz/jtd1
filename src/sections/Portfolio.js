@@ -8,10 +8,10 @@ const Resume = () => {
   const renderResumeItem = (image, title, description, isReverse) => {
     return (
       <div className={`w-3/4 mx-auto flex flex-col ${isReverse ? "lg:flex-row-reverse" : "lg:flex-row"} ld:flex-col items-center justify-center m-12 rounded-lg  `}>
-        <div className='w-full md:w-1/1 flex items-center justify-center'>
+        <div className='w-full md:w-1/1 flex items-center justify-center '>
           <div className='flex flex-col items-center justify-center ml-2'>
             <h3 className="text-md sm:text-md md:text-xl xl:text-5xl font-bold text-center">{title}</h3>
-            <p className="pt-4 text-md sm:text-md md:text-md lg:text-md xl:text-2xl text-center">{description}</p>
+            <p className="pt-4 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">{description}</p>
           </div>
         </div>
         <div className="container mx-auto md:w-1/1 sm:w-5/6 mt-3">
@@ -29,7 +29,7 @@ const Resume = () => {
         "Data & Business Analyst - B-Yond",
         <>
           <strong className="block text-center mb-2"> Optimized network performance:</strong>
-          <ul className="list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
+          <ul className="list-disc list-inside  pr-4 xl:ml-24 xl:mr-24 ">
             <li>Used AI techniques, Python, and SQL for testing 2G to 5G, CorePS, and IMS models.</li>
             <li>Enhanced the model's accuracy to 94%.</li>
             <li>Improved network troubleshooting speed by setting alarm thresholds and correlating alarms for early anomaly and outage detection.</li>

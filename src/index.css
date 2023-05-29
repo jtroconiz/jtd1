@@ -2,7 +2,15 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import url('typeface-nixie-one');
+@font-face {
+  font-family: 'Bebas';
+  src: url('./bebas.ttf') format('truetype');
+}
 
+@font-face {
+  font-family: 'Bunge';
+  src: url('./BungeeHairline-Regular.ttf') format('truetype');
+}
 
 /* body {
   margin: 0;
@@ -19,6 +27,7 @@
 } */
 
 
+
 body {
   font-family: 'Segoe UI';
 }
@@ -28,8 +37,16 @@ h1, h2, h3 {
   
 
 }
-
-
+li {
+  text-align: justify;
+}
+.header {
+  font-family: 'Bebas', sans-serif
+}
+.titulo1{
+  font-family: 'Bunge';
+  font-weight: 1000;
+}
 /* p {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
