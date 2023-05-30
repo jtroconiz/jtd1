@@ -40,9 +40,11 @@ h1, h2, h3 {
 li {
   text-align: justify;
 }
-.header {
+header {
   font-family: 'Bebas', sans-serif
 }
+
+
 .titulo1{
   font-family: 'Bunge';
   font-weight: 1000;

@@ -1,14 +1,14 @@
 import React from "react";
 
 const Strong = ({ children }) => (
-  <strong className="text-yellow-400">{children}</strong>
+  <strong className="text-custom-blue2">{children}</strong>
 );
 
 const Skills = () => {
   return (
-     <div id='Skills' className="mt-1  bg-custom-blue  text-white font-mono rounded-lg mx-6 sm:mx-24 md:mx-20 lg:mx-30">
-   {/* <div id='Skills' className="mt-1  bg-custom-blue  text-green-500 font-mono rounded-lg mx-6 sm:mx-24 md:mx-20 lg:mx-30"></div> */}
-      <div className="json-content m-5 text-left md:m-10 lg:m-20 xl:ml-30 pt-8 pb-8 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">
+    <div id='Skills' className="mt-1 mb-10 flex items-center justify-center bg-custom-blue w-3/4 text-white font-mono rounded-lg mx-auto">
+
+      <div className="json-content m-5 text-left md:m-10 lg:ml-20 xl:ml-30  pb-8 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">
         {"{"} 
         <br className="sm:text-md md:text-md lg:text-md xl:text-2xl"/>
         &nbsp;&nbsp;<Strong>"Skills"</Strong>: {"{"}

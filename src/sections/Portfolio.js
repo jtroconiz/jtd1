@@ -1,26 +1,45 @@
-import React from "react";
+import React, { useState } from 'react';
 import excitedHackerImage from '../images/excited-hacker-after-breaking-government-server-using-supercomputer.jpg';
 import manager from '../images/workplace-results-professional-report-accounting-during.jpg'
 import dataCenter from '../images/cloud-storage-banner-background.jpg'
 import AI from '../images/AI.webp'
+import logo1 from '../images/logo1.jpeg';
+import logo2 from '../images/logo2.jpeg';
+import logo3 from '../images/logo3.jpeg';
+import logo4 from '../images/logo4.png';
 
 const Resume = () => {
-  const renderResumeItem = (image, title, description, isReverse) => {
+  const [hoveredLogo, setHoveredLogo] = useState(null);
+
+  const renderResumeItem = (image, title, description, isReverse, link, logo) => {
     return (
       <div className={`w-3/4 mx-auto flex flex-col ${isReverse ? "lg:flex-row-reverse" : "lg:flex-row"} ld:flex-col items-center justify-center m-12 rounded-lg  `}>
         <div className='w-full md:w-1/1 flex items-center justify-center '>
           <div className='flex flex-col items-center justify-center ml-2'>
             <h3 className="text-md sm:text-md md:text-xl xl:text-5xl font-bold text-center">{title}</h3>
             <p className="pt-4 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">{description}</p>
+            {hoveredLogo === title && <img className="mt-4" src={logo} alt={`${title} logo`} />}
           </div>
         </div>
         <div className="container mx-auto md:w-1/1 sm:w-5/6 mt-3">
-        <img className="aspect-video  rounded-lg" src={image} alt="AI" />
+        
+          <a
+            href={link}
+            target="_blank" rel="noreferrer" 
+            className="relative block rounded-lg overflow-hidden"
+            onMouseEnter={() => setHoveredLogo(title)}
+            onMouseLeave={() => setHoveredLogo(null)}
+          >
+            <img className="aspect-video rounded-lg" src={image} alt="AI" />
+            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300">
+              <span className="text-white sd:text-lg lg:text-2xl font-semibold">Click to access further information about the company</span>
+            </div>
+          </a>
         </div>
-
       </div>
     );
   };
+
 
   return (
     <div>
@@ -35,7 +54,9 @@ const Resume = () => {
             <li>Improved network troubleshooting speed by setting alarm thresholds and correlating alarms for early anomaly and outage detection.</li>
           </ul>
         </>,
-        false
+        false,
+        "https://www.b-yond.com/",
+        logo1
       )}
       {renderResumeItem(
         excitedHackerImage,
@@ -48,7 +69,9 @@ const Resume = () => {
             <li>Automated processes by leveraging APIs and CLI in devices like Juniper MX, Junos Space, Netbox, Netbrain, and MFNA.</li>
           </ul>
         </>,
-        true
+        true,
+        "https://yuvo.net/",
+        logo2
       )}
     {renderResumeItem(
         manager,
@@ -61,7 +84,9 @@ const Resume = () => {
              <li>Responded rapidly to the Covid-19 crisis enabling 97% of remote connections for business continuity, which led to "Operational Continuity" recognition for our CIO from CETIUC.</li>
           </ul>
         </>,
-        false
+        false,
+        "https://www.teleperformance.com/",
+        logo3
       )}
 
    
@@ -80,7 +105,9 @@ const Resume = () => {
 
       
     </>,
-    true
+    true,
+    "https://metrotel.com.ar//",
+    logo4
   )}
 
 

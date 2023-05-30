@@ -44,15 +44,15 @@ const Header = () => {
     <header id="home" className={`fixed w-full top-0 bg-custom-blue z-50 p-2 ${open ? 'bg-custom-blue' : ''}`}>
       <div className="flex items-center justify-between">
         <div className="cursor-pointer" onClick={() => scrollToSection('home')}>
-          <img src={miFoto} alt="JTD Logo" className="ml-10 h-32" />
+        <img src={miFoto} alt="JTD Logo" className="ml-3 h-20 md:ml-10 md:h-20 lg:h-32" />
         </div>
-        <div onClick={() => setOpen(!open)} className="text-3xl cursor-pointer lg:hidden text-white">
+        <div onClick={() => setOpen(!open)} className="text-lg cursor-pointer lg:hidden text-white">
           {open ? 'Close' : 'Menu'}
         </div>
-        <ul className={` header lg:flex text-3xl lg:items-center lg:pb-0 lg:pt-0 pb-12 absolute lg:static left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-1000 ease-in ${open || isLargeScreen ? 'top-[100%] opacity-100 bg-custom-blue h-200 w-hv' : 'top-[-490px] opacity-0'} z-20`}>
+        <ul className={` header lg:flex text-md lg:items-center lg:pb-0 lg:pt-0 pb-12 absolute lg:static left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-1000 ease-in ${open || isLargeScreen ? 'top-[100%] opacity-100 bg-custom-blue h-200 w-hv' : 'top-[-490px] opacity-0'} z-20`}>
 
           {sections.map((section) => (
-            <li key={section.id} className="lg:ml-8 text-3xl sm:text-md md:text-xl lg:text-2xl xl:text-3xl lg:my-0 my-7 px-6 ">
+            <li key={section.id} className="lg:ml-8  sm:text-md md:text-xl lg:text-2xl xl:text-3xl lg:my-0 my-7 px-6 ">
               <span className="text-gray-200 hover:text-white duration-500 cursor-pointer" onClick={() => scrollToSection(section.id)}>
                 {section.name}
               </span>
