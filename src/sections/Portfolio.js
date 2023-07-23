@@ -92,7 +92,7 @@ const Resume = () => {
    
 {renderResumeItem(
     dataCenter,
-    "Sr Network Engineer & Project Manager -    Metrotel & Eprotel",
+    "Sr Network Engineer & Support Engineer at Metrotel & Eprotel",
     <>
 
       <ul className="list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
