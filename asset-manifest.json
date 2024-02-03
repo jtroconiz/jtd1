@@ -1,27 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.82f397f4.css",
-    "main.js": "/static/js/main.4fb62d6b.js",
-    "static/js/787.2ee99fd9.chunk.js": "/static/js/787.2ee99fd9.chunk.js",
-    "static/media/cloud-storage-banner-background.jpg": "/static/media/cloud-storage-banner-background.1f81c9c36fc9d941a0fd.jpg",
-    "static/media/AI.webp": "/static/media/AI.ee287b880f5d8c534545.webp",
-    "static/media/workplace-results-professional-report-accounting-during.jpg": "/static/media/workplace-results-professional-report-accounting-during.327582e0ffbf8ab483d8.jpg",
+    "main.css": "/static/css/main.e93a73c8.css",
+    "main.js": "/static/js/main.f2a60f17.js",
+    "static/js/787.52c3f705.chunk.js": "/static/js/787.52c3f705.chunk.js",
+    "static/media/yuvo.png": "/static/media/yuvo.60abec363e43fa8471e3.png",
+    "static/media/jtd-pic.jpg": "/static/media/jtd-pic.cabd07067482671fd295.jpg",
+    "static/media/NetworkDiagram.png": "/static/media/NetworkDiagram.bab42e74f78045fb1d75.png",
+    "static/media/jtdev.jpeg": "/static/media/jtdev.ad49484ed5e611d845c7.jpeg",
     "static/media/excited-hacker-after-breaking-government-server-using-supercomputer.jpg": "/static/media/excited-hacker-after-breaking-government-server-using-supercomputer.8310e6657875bbe997eb.jpg",
+    "static/media/cloud.jpg": "/static/media/cloud.fb7ea72b825b6eaf3441.jpg",
+    "static/media/Network-Security.jpg": "/static/media/Network-Security.da44cc1323e30b94825a.jpg",
+    "static/media/hapic.jpeg": "/static/media/hapic.f7716fe9901fe20a7994.jpeg",
     "static/media/DataCenterJTD_edited.jpg": "/static/media/DataCenterJTD_edited.7be6a8c87ffc34fd2d50.jpg",
     "static/media/20211204_174255_01_edited.jpg": "/static/media/20211204_174255_01_edited.dde54885a626ce6a65cb.jpg",
     "static/media/JTD-Imagotipo-A.jpg": "/static/media/JTD-Imagotipo-A.d688e2ac406cba92a486.jpg",
     "static/media/BungeeHairline-Regular.ttf": "/static/media/BungeeHairline-Regular.abe3b10e57f9fc250185.ttf",
-    "static/media/GettyImages-905866230.width-880.jpg": "/static/media/GettyImages-905866230.width-880.d1767b4213876727853a.jpg",
+    "static/media/ooredo.jpeg": "/static/media/ooredo.4a2e3837dc31f8194b07.jpeg",
+    "static/media/Agi.webp": "/static/media/Agi.fb4bce3a6c0523e5791c.webp",
     "static/media/bebas.ttf": "/static/media/bebas.12e3683f9192436a7be8.ttf",
+    "static/media/TP.jpeg": "/static/media/TP.9cf7e577b83c8fff88e4.jpeg",
     "static/media/nixie-one-latin-400.woff": "/static/media/nixie-one-latin-400.2a2114a002d16cc25aa6.woff",
     "static/media/nixie-one-latin-400.woff2": "/static/media/nixie-one-latin-400.711fdf61ee550dc8f0a2.woff2",
     "index.html": "/index.html",
-    "main.82f397f4.css.map": "/static/css/main.82f397f4.css.map",
-    "main.4fb62d6b.js.map": "/static/js/main.4fb62d6b.js.map",
-    "787.2ee99fd9.chunk.js.map": "/static/js/787.2ee99fd9.chunk.js.map"
+    "main.e93a73c8.css.map": "/static/css/main.e93a73c8.css.map",
+    "main.f2a60f17.js.map": "/static/js/main.f2a60f17.js.map",
+    "787.52c3f705.chunk.js.map": "/static/js/787.52c3f705.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82f397f4.css",
-    "static/js/main.4fb62d6b.js"
+    "static/css/main.e93a73c8.css",
+    "static/js/main.f2a60f17.js"
   ]
 }
