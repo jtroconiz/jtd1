@@ -1,26 +1,12 @@
 import React from 'react';
-
-
-// import CloudVirtualizationImage from '../images/CloudVirtualizationImage.jpg';
-import CloudVirtualizationImage from '../images/cloud.jpg';
-// import NetworkingSecurityImage from '../images/NetworkingSecurityImage.jpg';
-
-import NetworkingSecurityImage from '../images/Network-Security.jpg';
-// import DataManagementImage from '../images/DataManagementImage.jpg';
-import DataManagementImage from '../images/yuvo.png';
-// import MachineLearningImage from '../images/MachineLearningImage.jpg';
-import MachineLearningImage from '../images/excited-hacker-after-breaking-government-server-using-supercomputer.jpg';
-// import DevOpsImage from '../images/DevOpsImage.jpg';
-import DevOpsImage from '../images/ooredo.jpeg';
-
-// import FullStackImage from '../images/FullStackImage.jpg';
-
-import FullStackImage from '../images/jtdev.jpeg';
-
-// import ProfessionalEngagementsImage from '../images/ProfessionalEngagementsImage.jpg';
-import ProfessionalEngagementsImage from '../images/TP.jpeg';
-
-import ExpertiseInstallation from '../images/hapic.jpeg'
+import CloudVirtualizationImage from '../images/CloudVirtualizationImage.jpg';
+import NetworkingSecurityImage from '../images/NetworkingSecurityImage.jpg';
+import DataManagementImage from '../images/DataManagementImage.jpg';
+import MachineLearningImage from '../images/MachineLearningImage.jpg';
+import DevOpsImage from '../images/DevOpsImage.jpg';
+import FullStackImage from '../images/FullStackImage.jpg';
+import ProfessionalEngagementsImage from '../images/ProfessionalEngagementsImage.jpg';
+import ExpertiseInstallation from '../images/ExpertiseInstallation.jpg';
 
 
 
@@ -28,7 +14,7 @@ const Resume = () => {
   return (
     <div className="flex flex-wrap justify-around">
       {resumeItems.map((item, index) => (
-        <div key={index} className=" md:max-w-md lg:max-w-lg ml-5 rounded   mt-8 ">
+        <div key={index} className=" md:max-w-md lg:max-w-lg ml-5 mr-5 rounded   mt-8 ">
           
             <div className="flex flex-col items-center mt-4 shadow-lg rounded">
               <img src={item.imagen} alt={item.titulo} className="h-64  object-cover rounded" />
