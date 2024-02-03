@@ -30,25 +30,21 @@
 
 body {
   font-family: 'Segoe UI';
+  margin-top: 96px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, p{
   font-family: 'Segoe UI';
-  
-
 }
+
 li {
   text-align: justify;
 }
 header {
-  font-family: 'Bebas', sans-serif
+  font-family: 'Segoe UI';
 }
 
 
-.titulo1{
-  font-family: 'Bunge';
-  font-weight: 1000;
-}
 /* p {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;

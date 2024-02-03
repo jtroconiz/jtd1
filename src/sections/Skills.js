@@ -7,37 +7,34 @@ const Strong = ({ children }) => (
 const Skills = () => {
   return (
     <div id='Skills' className="mt-1 mb-10 flex items-center justify-center bg-custom-blue w-3/4 text-white font-mono rounded-lg mx-auto">
-
       <div className="json-content m-5 text-left md:m-10 lg:ml-20 xl:ml-30  pb-8 text-md sm:text-md md:text-md lg:text-md xl:text-2xl ">
         {"{"} 
         <br className="sm:text-md md:text-md lg:text-md xl:text-2xl"/>
-        &nbsp;&nbsp;<Strong>"Skills"</Strong>: {"{"}
+          <Strong>"Skills"</Strong>: {"{"}
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Networking &amp; Security"</Strong>: "Proficient in firewall, router, wireless controllers, and switch administration, including ASR, ISR, Catalyst, Nexus, ASA, NGFW, Fortigate, Load Balancers, and Network Proxies.",
+            <Strong>"Cloud & Virtualization"</Strong>: "IaaS platforms such as Openstack, Azure, Huawei cloud services. Experience in Software & Virtualization tools like Vmware, Windows Server, Linux, VirtualBox, Hyper-V, Docker, IPAM, and VDI solutions.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Protocols"</Strong>: "Knowledgeable in GPON, DWDM, CWDM, STP, VLAN, Trunk, Dot1Q, EtherChannel, LACP, HSRP, routing protocols (OSPF, BGP), VRF, MPLS, NAT, ACLs, QoS, MFA, Radius, Tacacs, SD-WAN, GRE, VPN SSL/IPsec, and scripting.",
+            <Strong>"Networking & Security"</Strong>: "Proficient in firewall, routing and switching, proxy, and WLC administration, across a wide range of platforms including ASR, ISR, Catalyst, Nexus, ASA, and various brands such as Cisco, Fortinet, Juniper, HP, and more. Expertise in advanced security measures, encompassing micro-segmentation, port security, DNS, DMZ configurations, and the deployment and management of IPS/IDS systems. Knowledge in security standards and compliance, including ISO, GDPR, and PCI DSS. Adept in implementing and managing network security protocols such as TACACS+, RADIUS, VPN SSL/IPsec, and applying secure network design principles, including split tunneling and SSL filtering. Experienced in enhancing network defenses with botnet inspection, antivirus solutions, and SSL decryption for traffic inspection. Skilled in the setup and utilization of Syslog, SIEM, LDAP, and multi-factor authentication (MFA) to enhance security measures.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Monitoring & Logs"</Strong>: Capable of managing and analyzing system logs, SNMP traps, MIBS, and syslogs. Proficient in network monitoring and performance tools like PRTG and Natgeo among others.",
+            <Strong>"Protocols"</Strong>: "Knowledgeable in GPON, DWDM, CWDM, STP, MSTP, VLAN, Trunk, Dot1Q, QinQ, EtherChannel, LACP, HSRP, advanced routing protocols (OSPF, BGP), and proficient in VRF, MPLS, NAT, ACLs, QoS, and SD-WAN.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Programming"</Strong>: "Acquainted with Python (including libraries such as Pandas and NumPy), JavaScript, ReactJS.",
+            <Strong>"Databases"</Strong>: "Management and experience with SQL, MySQL, PostgreSQL & Big Data technologies Vertica, Presto/Trino, Spark, and Redshift for large-scale data analysis.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Data Analysis &amp; Programming Tools"</Strong>: "Knowledgeable in Anaconda, Jupyter Notebook, Seaborn, and clustering techniques for data analysis and visualization.",
+            <Strong>"Data Analysis"</Strong>: "R, RStudio, Dplyr, Tidyr, Anaconda, Jupyter Notebook, plotly, Seaborn, and tools like Power Bi for data analysis and visualization.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Web Development"</Strong>: "Knowledgeable in HTML, CSS, Grid, Flexbox, Bootstrap, tailwind, SASS, and JSON.",
+            <Strong>"Machine Learning & AI"</Strong>: "Familiarity with supervised and unsupervised learning models such as linear regression and random forest trees. Experience in data preprocessing, feature engineering, and model training using libraries like scikit-learn.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Databases"</Strong>: "Skilled in SQL, MySQL, Vertica, and database management.",
+            <Strong>"Programming & Tools"</Strong>: "R, Python (Pandas, NumPy, scikit-learn), JavaScript, ReactJS, JSON, YAML, XML, and supporting tools.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Software"</Strong>: "Familiar with Windows Server, Microsoft Office, Linux, VirtualBox, and IPAM.",
+            <Strong>"Integration & Tools"</Strong>: "Expertise in API integration and various other tools and platforms like Visual Studio Code, Jira, Trello, Postman, Google Colab, ITIL, Git, Github, Wireshark, Network Analyzer, and Traffic Generator, and more.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Tools"</Strong>: "Visual Studio Code, Jira, Postman, and version control using Git, Github.",
+            <Strong>"DevOps & Monitoring"</Strong>: "Proficiency in managing system logs, SNMP traps, MIBS, syslogs, and utilizing monitoring tools like PRTG, SolarWinds, Checkmk, Zabbix, etc. Played a key role in the development of an innovative monitoring software solution as part of a dedicated engineering team (NI Platform | YUVO).",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Cloud"</Strong>: "Experience with Azure and Huawei cloud services.",
+            <Strong>"Web Development & Programming"</Strong>: "HTML, CSS, Grid, Flexbox, Bootstrap, Tailwind, SASS.",
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"APIs"</Strong>: "Knowledgeable in API integration and usage.",
+            <Strong>"Languages"</Strong>: "Native in Spanish and advanced proficiency in English."
         <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;<Strong>"Languages"</Strong>: "Spanish: <Strong>native</Strong>, English: <Strong>advanced</Strong>"
-        <br />
-        &nbsp;&nbsp;{"}"}
+          {"}"}
         <br />
         {"}"}
       </div>

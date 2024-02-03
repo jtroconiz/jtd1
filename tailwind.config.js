@@ -11,6 +11,12 @@ module.exports = {
           'custom-blue': '#12054c',
           'custom-blue2': '#00C1FF',
       },
+      height: {
+        '30vh': '30vh',
+        '40vh': '40vh',
+        '50vh': '50vh',
+        '20vh': '20vh',
+      },
     },
   },
   darkMode: "class",

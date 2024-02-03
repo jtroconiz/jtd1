@@ -2,7 +2,7 @@ import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import miFoto from "../images/GettyImages-905866230.width-880.jpg"; // Importa la imagen
+
 
 const Layout = ({ children }) => {
   const { pathname } = useLocation();
@@ -14,22 +14,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="relative mt-24">
-        <img src={miFoto} alt="AI" style={{ maxHeight: "75vh",  width: "100%" }} />
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-          <h1 className="hidden lg:block text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light mx-4 titulo1">In an era where a minute offline could cost millions,</h1>
-          <h1 className="hidden lg:block text-1xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-light mx-4 titulo1">I'm here to ensure your company never has to pay that price</h1>
-          
-          <h1 className="lg:hidden text-1xl sm:text-2xl md:text-3xl font-light mx-4 titulo1">In an era where a minute offline </h1>
-          <h1 className="lg:hidden text-1xl sm:text-2xl md:text-3xl font-light mx-4 titulo1">could cost millions,</h1>
-          <h1 className="lg:hidden text-1xl sm:text-2xl md:text-3xl font-light mx-4 titulo1">I'm here to ensure your company</h1>
-          <h1 className="lg:hidden text-1xl sm:text-2xl md:text-3xl font-light mx-4 titulo1"> never has to pay that price</h1>
-        </div>
-      </div>
-      <div className="overflow-y-auto">
-        {children}
-      </div>
+      <div className="overflow-y-auto"> {children} </div>
       <Footer/>
     </div>
   );

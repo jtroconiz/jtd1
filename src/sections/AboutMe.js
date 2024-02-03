@@ -23,6 +23,8 @@ const AboutMe = () => {
       </div>
     );
   };
+// text-lg lg:text-xl xl:text-2xl font-bold
+// md:text-base lg:text-lg xl:text-xl   text-left
 
   return (
     <div>
@@ -30,7 +32,7 @@ const AboutMe = () => {
         JTD,
         "Highly skilled and motivated professional",
         <>
-          <ul className="list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
+          <ul className="md:text-base lg:text-lg xl:text-xl  list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
             <li>With over 10 years of experience in network engineering, software development, and data analysis, I have honed my expertise in these fields. However, my professional journey is not limited to these technical domains alone. As a dedicated practitioner of Shotokan Karate, I hold a 2nd Kyu brown belt, which reflects my discipline, resilience, and commitment to personal growth.</li>
             <li>Throughout my career, I have demonstrated strong leadership, effective teamwork, and clear communication skills. Thriving in highly demanding environments, I have proven myself as an invaluable asset to any team. Leveraging my proven track record in the telecommunications industry, I am confident that I can bring significant value to your company.</li>
             
@@ -45,7 +47,7 @@ const AboutMe = () => {
         "",
         <>
 
-          <ul className="list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
+          <ul className="md:text-base lg:text-lg xl:text-xl  list-disc list-inside text-left pr-4 xl:ml-24 xl:mr-24">
                  <li>During my downtime, I indulge in editing audio-visual content, where I can blend my technical knowledge with my creative side. This hobby fuels my curiosity and passion for continuously learning new technologies, as I constantly strive to push my limits and explore innovative solutions to complex problems.</li>
               <li> As a self-taught individual, my insatiable curiosity and adaptability are key qualities that drive my professional growth. I am currently seeking my next professional challenge and eagerly look forward to joining a company where I can further develop my skills and contribute to its success. I am open to relocations and willing to travel if required.</li>
           </ul>
