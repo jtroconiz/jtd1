@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import karate from '../images/20211204_174255_01_edited.jpg';
 
@@ -23,8 +20,6 @@ const AboutMe = () => {
       </div>
     );
   };
-// text-lg lg:text-xl xl:text-2xl font-bold
-// md:text-base lg:text-lg xl:text-xl   text-left
 
   return (
     <div>
