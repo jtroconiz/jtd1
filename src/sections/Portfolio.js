@@ -99,16 +99,18 @@ const Resume = () => {
   ];
 
   return (
-    <div className="flex flex-wrap justify-around container mx-auto" ref={containerRef}>
-      {resumeItems.map((item, index) => (
-        <div key={index} className="md:max-w-md ml-5 mr-5 mt-8 p-5 portfolio-item">
-          <div className="flex flex-col items-center mt-4 shadow-lg rounded-xl">
-            <img src={item.imagen} alt={item.titulo} className="h-64 object-cover rounded-xl" />
-            <h4 className="text-lg lg:text-xl xl:text-2xl font-bold mt-4 text-center">{item.titulo}</h4>
-            <p className="mt-2 m-4 md:text-base lg:text-lg xl:text-xl text-justify">{item.descripcion}</p>
+    <div id="Portfolio" >
+      <div className="flex flex-wrap justify-around container mx-auto" ref={containerRef}>
+        {resumeItems.map((item, index) => (
+          <div key={index} className="md:max-w-md  portfolio-item">
+            <div className="flex flex-col items-center mt-4 shadow-lg rounded-xl">
+              <img src={item.imagen} alt={item.titulo} className="h-64 object-cover rounded-xl" />
+              <h4 className="text-lg lg:text-xl xl:text-2xl font-bold mt-4 text-center">{item.titulo}</h4>
+              <p className=" mt-2 m-4 md:text-base lg:text-lg xl:text-xl text-justify">{item.descripcion}</p>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };

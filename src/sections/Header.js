@@ -4,7 +4,7 @@ import miFoto from "../images/JTD-Imagotipo-A.jpg"; // Importa la imagen
 const Header = () => {
   const sections = [
     { name: 'Home', id: 'home' },
-    { name: 'Portfolio', id: 'portfolio' },
+    { name: 'Portfolio', id: 'Portfolio' },
     { name: 'About me', id: 'aboutme' },
     { name: 'Skills', id: 'Skills' },
     { name: 'Contact', id: 'contact' }
