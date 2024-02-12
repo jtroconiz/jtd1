@@ -40,15 +40,15 @@ const Intro = () => {
   return (
     <div ref={containerRef} className="max-w-screen-2xl container mx-auto">
       <div className="pt-6 pb-2 lg:pt-20 lg:pb-3 flex flex-col items-center justify-center text-center bg-opacity-40">
-      <h1 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold pb-8 uppercase">
-  Living in a world where digital downtime
-  <br className="sm:hidden" /> {/* Oculto solo en 'sm' */}
-  can lead to significant losses,
-  <br className="sm:hidden" /> {/* Oculto solo en 'sm' */}
-  I’m committed to ensuring
-  <br className="sm:hidden" /> {/* Oculto solo en 'sm' */}
-  your business stays connected and secure.
-</h1>
+      <h1 className="text-lg lg:text-xl xl:text-2xl font-bold portfolio-item--title pb-6">
+        Living in a world where digital downtime
+        <br className="sm:hidden" /> {/* Oculto solo en 'sm' */}
+        can lead to significant losses,
+        <br className="" /> {/* Oculto solo en 'sm' */}
+        I’m committed to ensuring
+        <br className="sm:hidden" /> {/* Oculto solo en 'sm' */}
+        your business stays connected and secure.
+      </h1>
 
 
 
