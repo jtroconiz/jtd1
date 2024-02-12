@@ -64,11 +64,11 @@ const Header = () => {
         <div className="cursor-pointer" onClick={(event) => scrollToSection('home', event)}>
         <img src={miFoto} alt="JTD Logo" className="ml-3 h-20 md:ml-10 md:h-20 lg:h-32" />
         </div>
-        <div onClick={(event) => {event.stopPropagation(); setOpen(!open)}} className="text-lg cursor-pointer lg:hidden text-white mr-8">
+        <div onClick={(event) => {event.stopPropagation(); setOpen(!open)}} className="text-lg cursor-pointer lg:hidden text-gray-200 hover:text-white mr-8">
           {open ? 'Close' : 'Menu'}
         </div>
 
-        <ul className={`header lg:flex text-md lg:items-center lg:pb-0 lg:pt-0 pb-12 absolute lg:static left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-1000 ease-in ${open || isLargeScreen ? 'top-[100%] opacity-80 bg-custom-blue h-200 w-hv' : 'top-[-490px] opacity-0'} z-20`}>
+        <ul className={`header lg:flex text-md lg:items-center lg:pb-0 lg:pt-0 pb-12 absolute lg:static left-0 w-full lg:w-auto lg:pl-0 pl-9 transition-all duration-100 ease-in ${open || isLargeScreen ? 'top-[100%] opacity-80 bg-custom-blue h-200 w-hv' : 'top-[-490px] opacity-0'} z-20`}>
 
           {sections.map((section) => (
             <li key={section.id} className="lg:ml-8  sm:text-md md:text-xl lg:text-1xl xl:text-2xl lg:my-0 my-7 px-6 ">

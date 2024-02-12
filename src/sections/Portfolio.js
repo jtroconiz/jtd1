@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 import CloudVirtualizationImage from '../images/CloudVirtualizationImage.jpg';
 import NetworkingSecurityImage from '../images/NetworkingSecurityImage.jpg';
 import DataManagementImage from '../images/DataManagementImage.jpg';
@@ -8,31 +10,18 @@ import FullStackImage from '../images/FullStackImage.jpg';
 import ProfessionalEngagementsImage from '../images/ProfessionalEngagementsImage.jpg';
 import ExpertiseInstallation from '../images/ExpertiseInstallation.jpg';
 
-
-
 const Resume = () => {
-  return (
-    <div className="flex flex-wrap justify-around">
-      {resumeItems.map((item, index) => (
-        <div key={index} className=" md:max-w-md lg:max-w-lg ml-5 mr-5 rounded   mt-8 ">
-          
-            <div className="flex flex-col items-center mt-4 shadow-lg rounded">
-              <img src={item.imagen} alt={item.titulo} className="h-64  object-cover rounded" />
-              <h4 className="text-lg lg:text-xl xl:text-2xl font-bold">{item.titulo}</h4>
-              <p className="mt-2 m-4 md:text-base lg:text-lg xl:text-xl   text-left">{item.descripcion}</p>
-            </div>
+  const containerRef = useRef(null);
 
-         
-        </div>
-      ))}
-    </div>
-  );
-};
-
-
-
-  
-
+  useEffect(() => {
+    ScrollReveal().reveal('.portfolio-item', {
+      duration: 1000,
+      origin: 'bottom',
+      distance: '20px',
+      delay: 200,
+      reset: true
+    });
+  }, []);
 
   const resumeItems = [
     {
@@ -49,7 +38,7 @@ const Resume = () => {
       titulo: "Networking & Security Architecture",
       descripcion: (
         <>
-          Designed and administered complex ISP & Enterprose network infrastructures, incorporating Wire, Wireless, Datacenter, and VPN technologies across a variety of equipment including ASR, ISR, Catalyst, Nexus, and ASA. I have collaborated with leading industry brands such as Cisco, Fortinet, Juniper, Aruba and HP. Implemented advanced security protocols and measures, such as micro-segmentation, DNS, DMZ configurations, and IPS/IDS systems, ensuring compliance with ISO, GDPR, and PCI DSS standards.
+          Designed and administered complex ISP & Enterprise network infrastructures, incorporating Wire, Wireless, Datacenter, and VPN technologies across a variety of equipment including ASR, ISR, Catalyst, Nexus, and ASA. I have collaborated with leading industry brands such as Cisco, Fortinet, Juniper, Aruba and HP. Implemented advanced security protocols and measures, such as micro-segmentation, DNS, DMZ configurations, and IPS/IDS systems, ensuring compliance with ISO, GDPR, and PCI DSS standards.
         </>
       ),
     },
@@ -76,7 +65,7 @@ const Resume = () => {
       titulo: "DevOps & Automated Monitoring",
       descripcion: (
         <>
-         Played a key role in the development of an innovative monitoring software solution, namely the NI Platform | YUVO. Managed various aspects including SQL, API, and system logs, and leveraged SNMP, MIBS, syslogs for in-depth system monitoring. Utilized tools such as PRTG, SolarWinds, Checkmk, and Zabbix to ensure comprehensive coverage and effective monitoring.
+          Played a key role in the development of an innovative monitoring software solution, namely the NI Platform | YUVO. Managed various aspects including SQL, API, and system logs, and leveraged SNMP, MIBS, syslogs for in-depth system monitoring. Utilized tools such as PRTG, SolarWinds, Checkmk, and Zabbix to ensure comprehensive coverage and effective monitoring.
         </>
       ),
     },
@@ -91,7 +80,7 @@ const Resume = () => {
     },
     {
       imagen: ProfessionalEngagementsImage,
-      titulo: "Professional Engagements and Achievements",
+      titulo: "Achievements",
       descripcion: (
         <>
           As a Senior Network Cloud Engineer, led pivotal infrastructure and cloud projects, delivering high-quality cloud services to over 4,000 virtual desktops. As a Telecom IP Network SME, optimized network performance using AI and SQL, achieving a 94% accuracy rate in network model testing from 2G to 5G. Managed and reengineered Teleperformance's South Cone network, achieving over 99.9% uptime and annual savings of $110,000.
@@ -100,18 +89,28 @@ const Resume = () => {
     },
     {
       imagen: ExpertiseInstallation,
-      titulo: "Expertise in Equipment Installation and Certification",
+      titulo: "Equipment Installation and Certification",
       descripcion: (
         <>
           Skilled in the installation and certification of various network equipment, with a particular focus on optical fiber technologies. I have hands-on experience with DWDM and CWDM equipment, among others. My proficiency extends to achieving ATP certification, ensuring the highest standards of quality and performance in all installations. In addition to my technical skills, I have extensive experience conducting site surveys and detailed engineering with AutoCAD plans. These capabilities allow me to assess the feasibility of installations, plan effectively, and ensure that all network equipment, including optical fiber technologies, are installed and certified to the highest standards. This comprehensive approach, combined with my ability to manage and monitor systems effectively, contributes to the overall efficiency and reliability of the networks I work with.
         </>
       ),
     },
-
-
   ];
 
+  return (
+    <div className="flex flex-wrap justify-around container mx-auto" ref={containerRef}>
+      {resumeItems.map((item, index) => (
+        <div key={index} className="md:max-w-md ml-5 mr-5 mt-8 p-5 portfolio-item">
+          <div className="flex flex-col items-center mt-4 shadow-lg rounded-xl">
+            <img src={item.imagen} alt={item.titulo} className="h-64 object-cover rounded-xl" />
+            <h4 className="text-lg lg:text-xl xl:text-2xl font-bold mt-4 text-center">{item.titulo}</h4>
+            <p className="mt-2 m-4 md:text-base lg:text-lg xl:text-xl text-justify">{item.descripcion}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default Resume;
-
-
