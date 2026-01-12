@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEnvelope, FaPhone, FaLinkedin, FaGlobe } from 'react-icons/fa';
+import { FaEnvelope, FaLinkedin, FaGlobe } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -15,15 +15,6 @@ const Contact = () => {
                 className="hover:text-[#64FFDA] transition-colors"
               >
                 jtroconiz@outlook.com
-              </a>
-            </div>
-            <div className="flex items-center justify-center gap-3 text-lg lg:text-xl">
-              <FaPhone className="text-[#64FFDA]" />
-              <a 
-                href="tel:+34603243286" 
-                className="hover:text-[#64FFDA] transition-colors"
-              >
-                +34 603 24 32 86
               </a>
             </div>
             <div className="flex items-center justify-center gap-3 text-lg lg:text-xl">
