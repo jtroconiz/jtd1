@@ -1,31 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.f44a574a.css",
-    "main.js": "/static/js/main.b36b0c1f.js",
-    "static/js/787.52c3f705.chunk.js": "/static/js/787.52c3f705.chunk.js",
-    "static/media/jtd-pic.jpg": "/static/media/jtd-pic.cabd07067482671fd295.jpg",
-    "static/media/CloudVirtualizationImage.jpg": "/static/media/CloudVirtualizationImage.b0633cd353c464746727.jpg",
-    "static/media/ExpertiseInstallation.jpg": "/static/media/ExpertiseInstallation.06282aad961ce0ab7a4e.jpg",
-    "static/media/DataCenterJTD_edited.jpg": "/static/media/DataCenterJTD_edited.7be6a8c87ffc34fd2d50.jpg",
-    "static/media/20211204_174255_01_edited.jpg": "/static/media/20211204_174255_01_edited.dde54885a626ce6a65cb.jpg",
-    "static/media/FullStackImage.jpg": "/static/media/FullStackImage.bf2391bf0edda1c3219d.jpg",
-    "static/media/JTD-Imagotipo-A.jpg": "/static/media/JTD-Imagotipo-A.d688e2ac406cba92a486.jpg",
-    "static/media/MachineLearningImage.jpg": "/static/media/MachineLearningImage.7527700c20610719a680.jpg",
-    "static/media/BungeeHairline-Regular.ttf": "/static/media/BungeeHairline-Regular.abe3b10e57f9fc250185.ttf",
-    "static/media/ProfessionalEngagementsImage.jpg": "/static/media/ProfessionalEngagementsImage.cc3a9ad84118624689c7.jpg",
-    "static/media/DevOpsImage.jpg": "/static/media/DevOpsImage.6078a444608fec5c1fff.jpg",
-    "static/media/NetworkingSecurityImage.jpg": "/static/media/NetworkingSecurityImage.821cb5407e0a00be9fc6.jpg",
-    "static/media/DataManagementImage.jpg": "/static/media/DataManagementImage.a0235c511b10b0c5b8b0.jpg",
-    "static/media/bebas.ttf": "/static/media/bebas.12e3683f9192436a7be8.ttf",
-    "static/media/nixie-one-latin-400.woff": "/static/media/nixie-one-latin-400.2a2114a002d16cc25aa6.woff",
-    "static/media/nixie-one-latin-400.woff2": "/static/media/nixie-one-latin-400.711fdf61ee550dc8f0a2.woff2",
+    "main.css": "/static/css/main.6525d663.css",
+    "main.js": "/static/js/main.109c6aed.js",
+    "static/js/453.d5f943c3.chunk.js": "/static/js/453.d5f943c3.chunk.js",
+    "static/media/Ml AI.png": "/static/media/Ml AI.4ac391d23f65216f930c.png",
+    "static/media/Design.png": "/static/media/Design.c3dcf65708dcae38c917.png",
+    "static/media/Automation.png": "/static/media/Automation.d11db279135fb3c932b9.png",
+    "static/media/Full back.png": "/static/media/Full back.27f41aa44cd0ce6b4d74.png",
+    "static/media/Fondo.png": "/static/media/Fondo.4d464ab869e2541974f8.png",
+    "static/media/Jesus troconiz.png": "/static/media/Jesus troconiz.21c67635643ad3c5ed83.png",
+    "static/media/Logo GPT.png": "/static/media/Logo GPT.6182674d321742c2f9cf.png",
     "index.html": "/index.html",
-    "main.f44a574a.css.map": "/static/css/main.f44a574a.css.map",
-    "main.b36b0c1f.js.map": "/static/js/main.b36b0c1f.js.map",
-    "787.52c3f705.chunk.js.map": "/static/js/787.52c3f705.chunk.js.map"
+    "main.6525d663.css.map": "/static/css/main.6525d663.css.map",
+    "main.109c6aed.js.map": "/static/js/main.109c6aed.js.map",
+    "453.d5f943c3.chunk.js.map": "/static/js/453.d5f943c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f44a574a.css",
-    "static/js/main.b36b0c1f.js"
+    "static/css/main.6525d663.css",
+    "static/js/main.109c6aed.js"
   ]
 }
