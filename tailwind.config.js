@@ -10,6 +10,9 @@ module.exports = {
         colors: {
           'custom-blue': '#12054c',
           'custom-blue2': '#00C1FF',
+          'dark-blue': '#0A192F',
+          'dark-blue-2': '#172A45',
+          'accent-green': '#64FFDA',
       },
       height: {
         '30vh': '30vh',

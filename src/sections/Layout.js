@@ -9,14 +9,12 @@ const Layout = ({ children }) => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-
-
   }, [pathname]);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <Header />
-      <div className="lg:max-w-full" >
+      <div className="flex-1">
         {children}
       </div>
       <Footer />

@@ -1,16 +1,18 @@
 import React from "react";
-import Skills from "../sections/Skills";
-import Portfolio from "../sections/Portfolio"
-import Intro from "../sections/Intro";
-import AboutMe from "../sections/AboutMe";
+import Hero from "../sections/Hero";
+import ImpactHighlights from "../sections/ImpactHighlights";
+import FeaturedProjects from "../sections/FeaturedProjects";
+import ClosingStatement from "../sections/ClosingStatement";
+import Contact from "../sections/Contact";
 
 const Home = () => {
   return (
     <div>
-      <Intro/>
-      <Portfolio/>
-      <AboutMe/>
-      <Skills />
+      <Hero/>
+      <ImpactHighlights/>
+      <FeaturedProjects/>
+      <ClosingStatement/>
+      <Contact />
     </div>
   );
 };
