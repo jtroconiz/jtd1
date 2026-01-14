@@ -76,7 +76,7 @@ const Hero = () => {
                 href="https://www.linkedin.com/in/jtroconiz/" 
                 target="_blank" 
                 rel="noreferrer"
-                className="flex items-center gap-2 bg-[#172A45] hover:bg-[#1B2F4F] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                className="flex items-center gap-2 bg-[#172A45] hover:bg-[#64FFDA]/20 hover:text-[#64FFDA] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
               >
                 <FaLinkedin /> LinkedIn
               </a>
@@ -88,7 +88,7 @@ const Hero = () => {
               </a>
               <a 
                 href="mailto:jtroconiz@outlook.com" 
-                className="flex items-center gap-2 bg-[#172A45] hover:bg-[#1B2F4F] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                className="flex items-center gap-2 bg-[#172A45] hover:bg-[#64FFDA]/20 hover:text-[#64FFDA] text-white px-6 py-3 rounded-lg font-semibold transition-colors"
               >
                 <FaEnvelope /> Mail
               </a>

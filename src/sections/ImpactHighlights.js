@@ -69,10 +69,10 @@ const ImpactHighlights = () => {
   ];
 
   return (
-    <section className="py-16 bg-gradient-to-b from-[#0A192F] to-[#172A45] text-white">
+    <section className="py-8 bg-gradient-to-b from-[#0A192F] to-[#172A45] text-white">
       <div className="container mx-auto px-4">
         {/* Impact Points */}
-        <div className="mb-16">
+        <div className="mb-6">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-[#64FFDA]">Highlights</h2>
           <ul className="space-y-3 list-none">
             {impactPoints.map((point, index) => (
@@ -89,7 +89,7 @@ const ImpactHighlights = () => {
         </div>
 
         {/* Core Expertise Section */}
-        <div className="mb-12">
+        <div className="mb-2">
           <h3 className="text-3xl lg:text-4xl font-bold mb-8 text-center text-[#64FFDA]">CORE EXPERTISE</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {highlights.map((highlight, index) => (

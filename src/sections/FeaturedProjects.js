@@ -29,10 +29,10 @@ const FeaturedProjects = () => {
   ];
 
   return (
-    <section className="py-16 bg-[#172A45] text-white">
+    <section className="py-12 bg-[#172A45] text-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-center text-[#64FFDA]">FEATURED PROJECTS</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-center text-[#64FFDA]">FEATURED PROJECTS</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {projects.map((project, index) => (
             <div 
               key={index}
